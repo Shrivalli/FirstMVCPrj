@@ -18,7 +18,7 @@ namespace FirstASPCoreApp.Controllers
         {
             _logger = logger;
         }
-
+        //comment for Index method
         public IActionResult Index()
         {
             return View();
