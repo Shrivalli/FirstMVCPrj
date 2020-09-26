@@ -23,7 +23,7 @@ namespace FirstASPCoreApp.Controllers
         {
             return View();
         }
-
+        //Comment added for privacy
         public IActionResult Privacy()
         {
             return View();
