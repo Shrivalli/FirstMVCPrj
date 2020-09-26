@@ -29,6 +29,10 @@ namespace FirstASPCoreApp.Controllers
             return View();
         }
 
+        public string msg()
+        {
+            return "msg";
+        }
         public string welcome()
         {
             return "welcome";
