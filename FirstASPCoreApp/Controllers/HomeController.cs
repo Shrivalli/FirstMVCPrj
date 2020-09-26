@@ -32,7 +32,7 @@ namespace FirstASPCoreApp.Controllers
         //Comment Added
         public string msg()
         {
-            return "Shrivalli";
+            return "Parisha";
         }
         public string welcome()
         {
