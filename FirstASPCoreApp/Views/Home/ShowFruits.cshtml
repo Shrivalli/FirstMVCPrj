@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "ShowFruits";
+}
+
+<h1>ShowFruits</h1>
+<ul>
+    @foreach(string item in ViewBag.Fr)
+    {
+    <li>@item</li>
+
+    }
+    </ul>
