@@ -29,6 +29,11 @@ namespace FirstASPCoreApp.Controllers
             return View();
         }
 
+        public string welcome()
+        {
+            return "welcome";
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
