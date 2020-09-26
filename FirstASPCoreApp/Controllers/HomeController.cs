@@ -28,7 +28,8 @@ namespace FirstASPCoreApp.Controllers
         {
             return View();
         }
-
+        
+        //Comment Added
         public string msg()
         {
             return "msg";
